@@ -4,9 +4,6 @@
 DegenToken is a Solidity smart contract that implements a basic ERC20 token with additional functionalities for buying items using the token. It allows users to mint tokens, buy items, burn tokens, and manage items through ownership.
 
 ## Usage:
-To use the DegenToken contract, follow these steps:
-
-
 To deploy and interact with this contract, you can use Remix Ethereum IDE, a powerful online tool for writing, compiling, and deploying Ethereum smart contracts. Follow these steps:
 
 1. **Open Remix Ethereum IDE**: Navigate to the Remix website ([remix.ethereum.org](https://remix.ethereum.org/)).
