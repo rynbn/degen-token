@@ -17,8 +17,8 @@ To use the DegenToken contract, follow these steps:
 - **Minting Tokens:** The owner of the contract can mint new DegenToken tokens using the `mint` function.
 - **Buying Items:** Users can purchase items using their DegenToken tokens. The contract maintains a mapping of items, and users can buy items by calling the `buyItem` function.
 - **Burning Tokens:** Users can burn their DegenToken tokens using the `burn` function. This functionality allows users to remove tokens from circulation.
-- **Item Management** The contract allows the owner to add new items using the `addItem` function and update the prices of existing items using the `updateItemPrice` function. Items are represented as a struct containing a name and a price.
-- **Ownership**  The contract inherits from OpenZeppelin's `Ownable` contract, ensuring that certain functions can only be called by the contract owner. This includes minting tokens, adding items, and updating item prices.
+- **Item Management:** The contract allows the owner to add new items using the `addItem` function and update the prices of existing items using the `updateItemPrice` function. Items are represented as a struct containing a name and a price.
+- **Ownership:**  The contract inherits from OpenZeppelin's `Ownable` contract, ensuring that certain functions can only be called by the contract owner. This includes minting tokens, adding items, and updating item prices.
 
 
 ## **Authors**
